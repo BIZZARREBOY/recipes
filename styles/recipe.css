@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+.container-recipe{
+    width: 100%;
+}
+
+.card-container {
+    margin: 0 auto;
+    width: 95%;
+}
+
+.card {
+    width: 50%;
+    background-color: #e6d6d6;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 50px auto;
+    box-shadow: 0px 4px 8px rgba(240, 240, 240, 0.158);   
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 30px;
+    margin: 0 auto;
+    width: 80%;
+    margin-bottom: 50px;
+}
+
+.card-content h1 {
+    font-size: 28px;
+    margin-bottom: 8px;
+    font-weight: 800;
+}
+
+.card-content h2 {
+    font-size: 20px;
+    margin-bottom: 8px;
+    font-weight: 800;
+}
+
+.card-content ul,
+.card-content ol {
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 8px;
+    color: #666;
+    padding-left: 15px;
+}
+
+.card-content p {
+    color: #666;
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 8px;
+}
+
+.div-btn {
+    width: 80%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.btn {
+    background: #333;
+    color: white;
+    font-weight: 800;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 20px 40px;
+}
